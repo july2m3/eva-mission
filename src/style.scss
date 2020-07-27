@@ -1,0 +1,53 @@
+// @import './components/header/header.scss';
+@import './components/header/header.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.home {
+  margin-left: 1rem;
+}
+
+.info {
+  margin-bottom: 100px;
+  color: blue;
+  ul {
+    li {
+      margin: 1rem;
+      font-size: 1.2rem;
+
+      &.question {
+        font-size: 1rem;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
