@@ -1,0 +1,30 @@
+header {
+  .navigation {
+    height: 5rem;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__menu-icon {
+      font-size: 4rem;
+    }
+
+    &__menu {
+      position: absolute;
+      background-color: black;
+      color: white;
+      display: none;
+
+      li {
+        margin: 1rem;
+      }
+    }
+  }
+}

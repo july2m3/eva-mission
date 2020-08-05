@@ -3,8 +3,10 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul className="navigation">
+      <nav className="navigation">
+        <p className="navigation__title">Eva Mission</p>
+        <p className="navigation__menu-icon">=</p>
+        <ul className="navigation__menu">
           <li>Home</li>
           <li>About</li>
           <li>Our Inspiration</li>
