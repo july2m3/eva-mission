@@ -4,7 +4,14 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <ul>Hello</ul>
+        <ul className="navigation">
+          <li>Home</li>
+          <li>About</li>
+          <li>Our Inspiration</li>
+          <li>Personal Stories</li>
+          <li>Help Us</li>
+          <li>Contact Us</li>
+        </ul>
       </nav>
     </header>
   );

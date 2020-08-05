@@ -1,0 +1,15 @@
+.info {
+  margin-bottom: 100px;
+  color: blue;
+  ul {
+    li {
+      margin: 1rem;
+      font-size: 1.2rem;
+
+      &.question {
+        font-size: 1rem;
+        font-weight: lighter;
+      }
+    }
+  }
+}
