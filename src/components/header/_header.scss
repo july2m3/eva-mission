@@ -18,11 +18,11 @@ header {
 
     &__menu {
       position: absolute;
-      border: 2px solid white;
-      background-color: black;
+      border: 2px solid black;
+      background-color: $menu-bg-color;
       height: 100vh;
       width: 100%;
-      color: white;
+      color: $menu-color;
       top: 0;
       right: 0;
       // display: flex;

@@ -1,5 +1,4 @@
 import React from 'react';
-import { CLIENT_RENEG_WINDOW } from 'tls';
 
 const Header = () => {
   const [showOrHide, setShowOrHide] = React.useState('');
