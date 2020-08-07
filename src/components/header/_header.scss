@@ -10,6 +10,23 @@ header {
 
     &__title {
       font-size: 2rem;
+      .heart svg {
+        animation: popUp 3s ease-in 0s infinite forwards;
+      }
+
+      @keyframes popUp {
+        0% {
+          transform: rotate(20deg) scale(1) translate(-0.3rem, 1rem);
+        }
+
+        50% {
+          transform: rotate(20deg) scale(1.2) translate(-0.3rem, 1rem);
+        }
+
+        100% {
+          transform: rotate(20deg) scale(1) translate((-0.3rem, 1rem));
+        }
+      }
     }
 
     &__menu-icon {
@@ -25,7 +42,6 @@ header {
       color: $menu-color;
       top: 0;
       right: 0;
-      // display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
