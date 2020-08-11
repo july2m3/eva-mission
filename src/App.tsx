@@ -52,9 +52,9 @@ const App = () => {
               <li>
                 <Link to="inspiration">Our Inspiration</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="personalstories">Personal Stories</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="help">Help Us</Link>
               </li>
@@ -78,9 +78,9 @@ const App = () => {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/personalstories">
+          {/* <Route path="/personalstories">
             <Stories />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
       </>
