@@ -7,6 +7,7 @@ import Home from './components/home';
 import Contact from './components/contact';
 import Help from './components/help';
 import Inspiration from './components/inspiration';
+import Stories from './components/stories';
 
 import './main.scss';
 
@@ -46,7 +47,7 @@ const App = () => {
             <p className="navigation__menu-icon">=</p>
             <ul className={`navigation__menu ${showOrHide}`}>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
                 <Link to="inspiration">Our Inspiration</Link>
@@ -65,20 +66,20 @@ const App = () => {
         </header>
 
         <Switch>
-          <Route path="/">
+          <Route path="/home">
             <Home />
           </Route>
-
           <Route path="/help">
             <Help />
           </Route>
-
           <Route path="/inspiration">
             <Inspiration />
           </Route>
-
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/personalstories">
+            <Stories />
           </Route>
         </Switch>
         <Footer />
