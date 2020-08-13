@@ -1,23 +1,23 @@
-import React from 'react';
-import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 
 // import Header from './components/header';
-import Footer from './components/footer';
-import Home from './components/home';
-import Contact from './components/contact';
-import Help from './components/help';
-import Inspiration from './components/inspiration';
-import Stories from './components/stories';
+import Footer from "./components/footer";
+import Home from "./components/home";
+import Contact from "./components/contact";
+import Help from "./components/help";
+import Inspiration from "./components/inspiration";
+import Stories from "./components/stories";
 
-import './main.scss';
+import "./main.scss";
 
 const App = () => {
   const handleClick = () => {
-    const className = showOrHide === '' ? 'show' : '';
+    const className = showOrHide === "" ? "show" : "";
     console.log(className);
     setShowOrHide(className);
   };
-  const [showOrHide, setShowOrHide] = React.useState('');
+  const [showOrHide, setShowOrHide] = React.useState("");
 
   return (
     <BrowserRouter>
@@ -47,7 +47,7 @@ const App = () => {
             <p className="navigation__menu-icon">=</p>
             <ul className={`navigation__menu ${showOrHide}`}>
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="inspiration">Our Inspiration</Link>
@@ -66,7 +66,7 @@ const App = () => {
         </header>
 
         <Switch>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
           <Route path="/help">
