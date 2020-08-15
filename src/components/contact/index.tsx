@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
   return (
@@ -8,7 +8,7 @@ function Contact() {
         Please get in touch by emailing us at
         <a href="mailto: evamissioninc.com"> EvaMissionInc@gmail.com </a>
         or messaging us through our
-        <a href="https://www.facebook.com/EvaMision">facebook</a>
+        <a href="https://www.facebook.com/EvaMision"> facebook</a>
       </p>
     </aside>
   );

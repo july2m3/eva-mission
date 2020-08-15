@@ -1,0 +1,14 @@
+.contact {
+  padding: 2rem;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  &__info {
+    font-size: 1.4rem;
+    a {
+      font-size: 1.4rem;
+    }
+  }
+}
