@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Help() {
   return (
@@ -8,9 +8,9 @@ function Help() {
         If you belive in what we do, please consider helping us:
       </h3>
       <ul className="help__info">
-        <li>Through donation of unwanted or unused items</li>
-        <li>Volunteering your time</li>
-        <li>Purchasing from us</li>
+        <li>Through donation of unwanted or unused items.</li>
+        <li>Volunteering your time.</li>
+        <li>Purchasing from us.</li>
         <li>Or through a small donation below:</li>
       </ul>
     </aside>
