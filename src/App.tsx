@@ -7,8 +7,6 @@ import Home from "./components/home";
 import Contact from "./components/contact";
 import Help from "./components/help";
 import Inspiration from "./components/inspiration";
-import Stories from "./components/stories";
-
 import "./main.scss";
 
 const App = () => {
@@ -52,9 +50,6 @@ const App = () => {
               <li>
                 <Link to="inspiration">Our Inspiration</Link>
               </li>
-              {/* <li>
-                <Link to="personalstories">Personal Stories</Link>
-              </li> */}
               <li>
                 <Link to="help">Help Us</Link>
               </li>
@@ -78,9 +73,6 @@ const App = () => {
           <Route path="/contact">
             <Contact />
           </Route>
-          {/* <Route path="/personalstories">
-            <Stories />
-          </Route> */}
         </Switch>
         <Footer />
       </>
